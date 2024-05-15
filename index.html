@@ -4,32 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>zletmax</title>
   </head>
   <body>
     <!-- HEADER START -->
     <header class="header" id="header">
-      <div class="container">
-        <div class="header_loge">
-          <div class="header_link">
-              <ol>
-                  <li>О нас</li>
-                  <li>Оплата и доставка</li>
-                  <li>Новости</li>
-                  <li>Контакты</li>
-              </ol>
+      <div class="header_loge">
+        <div class="header_link">
+          <ol>
+            <li>О нас</li>
+            <li>Оплата и доставка</li>
+            <li>Новости</li>
+            <li>Контакты</li>
+          </ol>
+          <ul>
+            <img src="./image/Group (2).png" alt="rasm bor" />
+            <li>Личный кабинет</li>
+          </ul>
+        </div>
+        <div class="header_middle">
+          <div class="header_middle_span">
+            <img src="./image/logo.png" alt="rasm bor" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              name="search"
+            />
+          </div>
+          <div class="header_middle_span rigt">
+            <ol>
+              <img src="./image/Иконка_Локации (1).png" alt="rasm bor" />
+              <b>Москва</b>
+            </ol>
+            <ol>
               <ul>
-                  <img src="./image/Group (2).png" alt="rasm bor">
-                  <li>Личный кабинет</li>
+                <li><b>8-800-777-49-67</b></li>
+                <li><b style="color: #e7b654;">Заказать звонок</b></li>
               </ul>
+              <img style="width: 13px;height: 10px; margin-top: 7px;margin-left: 5px;" src="./image/Group (3).png" alt="rasm bor" />
+            </ol>
+            <img class="rigt_imgg" src="./image/Иконка_Избранное.png" alt="rasm bor" />
+            <img class="rigt_img" src="./image/Иконка_корзины.png" alt="rasm bor" />
+            <ul>
+              <li>0 р.</li>
+              <li>Оформить заказ</li>
+            </ul>
           </div>
-          <div class="header_middle">
-            <div class="header_middle_span">
-              <img src="" alt="rasm bor">
+        </div>
+        <div class="header_nav">
+          <div id="accordion">
+
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                  <button>Каталог ножей</button>
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum..
+                </div>
+              </div>
             </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  <button>Клинковое оружие</button>
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum..
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                  <button>Сувенирные изделия</button>
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum..
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour">
+                  <button>Фонари ARMYTEK</button>
+                </a>
+              </div>
+              <div id="collapsefour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum..
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThere">
+                  <button>Сопуствующие товары</button>
+                </a>
+              </div>
+              <div id="collapseThere" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum..
+                </div>
+              </div>
+            </div>
+          
           </div>
-      </div>
+        </div>
       </div>
     </header>
     <!-- HEADER END -->
@@ -49,5 +141,8 @@
       <div class="container"></div>
     </footer>
     <!-- FOOTER END -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

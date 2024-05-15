@@ -7,6 +7,7 @@
 }
 
 .header_link {
+  width: 100%;
   background-color: black;
   color: aliceblue;
   padding: 1% 6%;
@@ -27,4 +28,72 @@
   justify-content: space-between;
   list-style: none;
   align-items: center;
+}
+
+.header_middle {
+  padding: 1% 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_middle li {
+  list-style: none;
+}
+.header_middle .header_middle_span {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_middle .header_middle_span input {
+  width: 400px;
+  height: 30px;
+  padding: 0 0 0 10px;
+}
+.header_middle .header_middle_span .img {
+  height: 30px;
+  width: 30px;
+}
+.header_middle .header_middle_span ol {
+  display: flex;
+}
+.header_middle .header_middle_span ol b {
+  margin-left: 10px;
+}
+.header_middle .rigt {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.header_nav {
+  padding: 1% 6%;
+  background-color: black;
+  color: aliceblue;
+}
+.header_nav #accordion {
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav #accordion .card {
+  background-color: black;
+}
+.header_nav #accordion .card .card-header a button {
+  border: 1px solid red;
+  padding: 10px 0;
+  border-bottom: #e7b654;
+  border: none;
+  color: aliceblue;
+  background-color: black;
+}
+.header_nav #accordion .card .card-header a button:hover {
+  border: 1px solid rgb(0, 0, 0);
+  border-bottom: 2px solid #e7b654;
+  color: #e7b654;
+  background-color: black;
+}
+
+.card-link:hover {
+  border-bottom: 2px solid #e7b654;
+  color: #e7b654;
 }/*# sourceMappingURL=main.css.map */
