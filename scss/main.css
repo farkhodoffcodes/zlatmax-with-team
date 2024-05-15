@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_link {
+  background-color: black;
+  color: aliceblue;
+  padding: 1% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_link ol {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.header_link ul {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
