@@ -16,6 +16,7 @@
   align-items: center;
 }
 .header_link ol {
+  cursor: pointer;
   display: flex;
   width: 450px;
   justify-content: space-between;
@@ -23,6 +24,7 @@
   align-items: center;
 }
 .header_link ul {
+  cursor: pointer;
   display: flex;
   width: 150px;
   justify-content: space-between;
@@ -37,6 +39,7 @@
   justify-content: space-between;
 }
 .header_middle li {
+  cursor: pointer;
   list-style: none;
 }
 .header_middle .header_middle_span {
@@ -53,8 +56,10 @@
 .header_middle .header_middle_span .img {
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 .header_middle .header_middle_span ol {
+  cursor: pointer;
   display: flex;
 }
 .header_middle .header_middle_span ol b {
@@ -91,6 +96,34 @@
   border-bottom: 2px solid #e7b654;
   color: #e7b654;
   background-color: black;
+}
+.header_nav #accordion .card .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav #accordion .card .dropdown {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav #accordion .card .card-body_top {
+  width: 100%;
+  padding: 10%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  margin-left: -108px;
+  box-sizing: border-box;
+}
+.header_nav #accordion .card .card-body_top li {
+  width: 296px;
+  list-style: none;
+}
+.header_nav #accordion .card .card-body_top ol {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  line-height: 3;
 }
 
 .card-link:hover {
