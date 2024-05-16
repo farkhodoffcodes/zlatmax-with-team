@@ -66,6 +66,48 @@
   padding: 1% 6%;
   background-color: black;
   color: aliceblue;
+  .panel-heading{
+    .panel-title{
+      width:100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .a_link:hover{
+        color: #e7b654;
+      }
+      .b_link:hover{
+        color: #e7b654;
+      }
+      .c_link:hover{
+        color: #e7b654;
+      }
+      .d_link:hover{
+        color: #e7b654;
+      }
+      .f_link:hover{
+        color: #e7b654;
+      }
+    }
+    .panel-title:hover{
+      color: #e7b654;
+    }
+  }
+  .panel-collapse{
+    .list-group{
+      ol{
+        padding: 20px 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        line-height: 2.5;
+        font-size: 15px;
+        list-style: none;
+        li{
+          width: 250px;
+        }
+      }
+    }
+  }
   #accordion {
     display: flex;
     justify-content: space-between;
@@ -89,36 +131,8 @@
           }
         }
       }
-      .navbar-nav {
-        display: flex;
-        justify-content: space-between;
-        // width: 100%;
-      }
-      .dropdown {
-        background-color: black;
-        display: flex;
-        justify-content: space-between;
-      }
-      .card-body_top {
-        width: 100%;
-        padding: 10%;
-        background-color: black;
-        margin: 0;
-        padding: 0;
-        margin-left: -108px;
-        box-sizing: border-box;
-        li {
-          width: 296px;
-          list-style: none;
-        }
-        ol {
-          display: flex;
-          // align-items: center;
-          justify-content: space-between;
-          padding: 20px;
-          line-height: 3;
-        }
-      }
+      
+      
     }
   }
 }
