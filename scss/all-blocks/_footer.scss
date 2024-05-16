@@ -10,7 +10,7 @@
         .footer_top {
             background: url("../image/footer_top_img.jpg");
             width: 1809px;
-            margin-left: -350px;
+            // margin-left: -350px;
             text-align: center;
             height: 331px;
             padding-top: 60px;
@@ -42,7 +42,6 @@
 
 
         .footer_middle {
-            margin-left: -280px;
 
             .coloumns {
                 padding-top: 102px;
@@ -96,7 +95,8 @@
         }
 
         .footer_hr {
-            margin-left: -170px;
+            // margin-left: -170px;
+            margin-left: 130px;
             width: 1475px;
             border: 1px solid #FFFFFF80;
             margin-bottom: 35px;
@@ -104,7 +104,9 @@
         }
 
         .footer_end {
-            margin-left: -100px;
+            margin-left: 163px;
+            display: flex;
+            gap: 173px;
 
 
             .coloumn1 {
@@ -162,7 +164,67 @@
                     font-weight: 500;
                     line-height: 27px;
                     color: #FFFFFFCC;
-                    margin-bottom: 15px;
+                }
+
+                .logos {
+                    margin-top: 30px;
+                    display: flex;
+                    align-items: center;
+                    gap: 21.6px;
+                }
+            }
+
+            .coloumn2 {
+                width: 296px;
+                height: 74px;
+
+                .coloumn_title {
+                    margin-bottom: 30px;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 21.94px;
+                    color: white;
+                }
+
+                .footer_end_a {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 21.94px;
+                    color: #FFFFFFCC;
+                }
+            }
+
+            .coloumn3 {
+                width: 318px;
+                height: 160px;
+
+                .coloumn_title {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 21.94px;
+                    color: white;
+                    margin-bottom: 30px;
+                }
+
+                .footer_end_p {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: #FFFFFFCC;
+
+                    span {
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 27px;
+                        text-align: left;
+                        color: #E8AA31;
+                    }
+
                 }
             }
         }

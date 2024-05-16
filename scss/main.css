@@ -19,7 +19,6 @@ ul {
 .footer .footer_wrapper .footer_top {
   background: url("../image/footer_top_img.jpg");
   width: 1809px;
-  margin-left: -350px;
   text-align: center;
   height: 331px;
   padding-top: 60px;
@@ -45,9 +44,6 @@ ul {
   line-height: 27px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
-}
-.footer .footer_wrapper .footer_middle {
-  margin-left: -280px;
 }
 .footer .footer_wrapper .footer_middle .coloumns {
   padding-top: 102px;
@@ -89,14 +85,16 @@ ul {
   transition: all 0.5s ease;
 }
 .footer .footer_wrapper .footer_hr {
-  margin-left: -170px;
+  margin-left: 130px;
   width: 1475px;
   border: 1px solid rgba(255, 255, 255, 0.5019607843);
   margin-bottom: 35px;
   border-radius: 1px;
 }
 .footer .footer_wrapper .footer_end {
-  margin-left: -100px;
+  margin-left: 163px;
+  display: flex;
+  gap: 173px;
 }
 .footer .footer_wrapper .footer_end .coloumn1 {
   width: 194px;
@@ -147,7 +145,58 @@ ul {
   font-weight: 500;
   line-height: 27px;
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 15px;
+}
+.footer .footer_wrapper .footer_end .coloumn1 .logos {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 21.6px;
+}
+.footer .footer_wrapper .footer_end .coloumn2 {
+  width: 296px;
+  height: 74px;
+}
+.footer .footer_wrapper .footer_end .coloumn2 .coloumn_title {
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  color: white;
+}
+.footer .footer_wrapper .footer_end .coloumn2 .footer_end_a {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer .footer_wrapper .footer_end .coloumn3 {
+  width: 318px;
+  height: 160px;
+}
+.footer .footer_wrapper .footer_end .coloumn3 .coloumn_title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  color: white;
+  margin-bottom: 30px;
+}
+.footer .footer_wrapper .footer_end .coloumn3 .footer_end_p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer .footer_wrapper .footer_end .coloumn3 .footer_end_p span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #E8AA31;
 }
 
 .header_link {
