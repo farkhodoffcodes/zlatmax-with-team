@@ -1,4 +1,8 @@
 .footer {
+    width: 1809px;
+    height: 1371px;
+    background-color: #141414;
+    margin: 0 auto;
 
 
     .footer_wrapper {
@@ -6,7 +10,7 @@
         .footer_top {
             background: url("../image/footer_top_img.jpg");
             width: 1809px;
-            margin-left: -280px;
+            margin-left: -350px;
             text-align: center;
             height: 331px;
             padding-top: 60px;
@@ -46,7 +50,7 @@
                 padding-right: 200px;
                 display: flex;
                 gap: 180px;
-                width: 1808px;
+                width: 1690px;
                 height: auto;
                 background-color: #141414;
             }
@@ -87,6 +91,78 @@
                         }
 
                     }
+                }
+            }
+        }
+
+        .footer_hr {
+            margin-left: -170px;
+            width: 1475px;
+            border: 1px solid #FFFFFF80;
+            margin-bottom: 35px;
+            border-radius: 1px;
+        }
+
+        .footer_end {
+            margin-left: -100px;
+
+
+            .coloumn1 {
+                width: 194px;
+                height: 282px;
+
+                .coloumn_title {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 21.94px;
+                    margin-bottom: 31px;
+                    color: #FFFFFF;
+                }
+
+                .phone {
+                    margin-bottom: 15px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 21.94px;
+                    color: #FFFFFFCC;
+                }
+
+                .footer_end_time {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: #FFFFFFCC;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .footer_end_location {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: #FFFFFFCC;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .footer_end_mail {
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: #FFFFFFCC;
+                    margin-bottom: 30px;
                 }
             }
         }

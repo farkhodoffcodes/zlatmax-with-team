@@ -10,10 +10,16 @@ ul {
   list-style: none;
 }
 
+.footer {
+  width: 1809px;
+  height: 1371px;
+  background-color: #141414;
+  margin: 0 auto;
+}
 .footer .footer_wrapper .footer_top {
   background: url("../image/footer_top_img.jpg");
   width: 1809px;
-  margin-left: -280px;
+  margin-left: -350px;
   text-align: center;
   height: 331px;
   padding-top: 60px;
@@ -49,7 +55,7 @@ ul {
   padding-right: 200px;
   display: flex;
   gap: 180px;
-  width: 1808px;
+  width: 1690px;
   height: auto;
   background-color: #141414;
 }
@@ -81,6 +87,67 @@ ul {
   color: #E8AA31;
   cursor: pointer;
   transition: all 0.5s ease;
+}
+.footer .footer_wrapper .footer_hr {
+  margin-left: -170px;
+  width: 1475px;
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+  margin-bottom: 35px;
+  border-radius: 1px;
+}
+.footer .footer_wrapper .footer_end {
+  margin-left: -100px;
+}
+.footer .footer_wrapper .footer_end .coloumn1 {
+  width: 194px;
+  height: 282px;
+}
+.footer .footer_wrapper .footer_end .coloumn1 .coloumn_title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  margin-bottom: 31px;
+  color: #FFFFFF;
+}
+.footer .footer_wrapper .footer_end .coloumn1 .phone {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer .footer_wrapper .footer_end .coloumn1 .footer_end_time {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer .footer_wrapper .footer_end .coloumn1 .footer_end_time span {
+  display: block;
+}
+.footer .footer_wrapper .footer_end .coloumn1 .footer_end_location {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer .footer_wrapper .footer_end .coloumn1 .footer_end_location span {
+  display: block;
+}
+.footer .footer_wrapper .footer_end .coloumn1 .footer_end_mail {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
 }
 
 .header_link {
