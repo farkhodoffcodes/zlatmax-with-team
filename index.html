@@ -1,148 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./scss/main.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>zletmax</title>
-  </head>
-  <body>
-    <!-- HEADER START -->
-    <header class="header" id="header">
-      <div class="header_loge">
-        <div class="header_link">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./scss/main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>zlatmax</title>
+</head>
+
+<body>
+  <!-- HEADER START -->
+  <header class="header" id="header">
+    <div class="header_loge">
+      <div class="header_link">
+        <ol>
+          <li>О нас</li>
+          <li>Оплата и доставка</li>
+          <li>Новости</li>
+          <li>Контакты</li>
+        </ol>
+        <ul>
+          <img src="./image/Group (2).png" alt="rasm bor" />
+          <li>Личный кабинет</li>
+        </ul>
+      </div>
+      <div class="header_middle">
+        <div class="header_middle_span">
+          <img src="./image/logo.png" alt="rasm bor" />
+          <input type="text" class="form-control" placeholder="Search" name="search" />
+        </div>
+        <div class="header_middle_span rigt">
           <ol>
-            <li>О нас</li>
-            <li>Оплата и доставка</li>
-            <li>Новости</li>
-            <li>Контакты</li>
+            <img src="./image/Иконка_Локации (1).png" alt="rasm bor" />
+            <b>Москва</b>
           </ol>
+          <ol>
+            <ul>
+              <li><b>8-800-777-49-67</b></li>
+              <li><b style="color: #e7b654;">Заказать звонок</b></li>
+            </ul>
+            <img style="width: 13px;height: 10px; margin-top: 7px;margin-left: 5px;" src="./image/Group (3).png"
+              alt="rasm bor" />
+          </ol>
+          <img class="rigt_imgg" src="./image/Иконка_Избранное.png" alt="rasm bor" />
+          <img class="rigt_img" src="./image/Иконка_корзины.png" alt="rasm bor" />
           <ul>
-            <img src="./image/Group (2).png" alt="rasm bor" />
-            <li>Личный кабинет</li>
+            <li>0 р.</li>
+            <li>Оформить заказ</li>
           </ul>
         </div>
-        <div class="header_middle">
-          <div class="header_middle_span">
-            <img src="./image/logo.png" alt="rasm bor" />
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Search"
-              name="search"
-            />
-          </div>
-          <div class="header_middle_span rigt">
-            <ol>
-              <img src="./image/Иконка_Локации (1).png" alt="rasm bor" />
-              <b>Москва</b>
-            </ol>
-            <ol>
-              <ul>
-                <li><b>8-800-777-49-67</b></li>
-                <li><b style="color: #e7b654;">Заказать звонок</b></li>
-              </ul>
-              <img style="width: 13px;height: 10px; margin-top: 7px;margin-left: 5px;" src="./image/Group (3).png" alt="rasm bor" />
-            </ol>
-            <img class="rigt_imgg" src="./image/Иконка_Избранное.png" alt="rasm bor" />
-            <img class="rigt_img" src="./image/Иконка_корзины.png" alt="rasm bor" />
-            <ul>
-              <li>0 р.</li>
-              <li>Оформить заказ</li>
-            </ul>
-          </div>
-        </div>
-        <div class="header_nav">
-          <div id="accordion">
+      </div>
+      <div class="header_nav">
+        <div id="accordion">
 
-            <div class="card">
-              <div class="card-header">
-                <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                  <button>Каталог ножей</button>
-                </a>
-              </div>
-              <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum..
-                </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                <button>Каталог ножей</button>
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum..
               </div>
             </div>
-          
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                  <button>Клинковое оружие</button>
-                </a>
-              </div>
-              <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum..
-                </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                <button>Клинковое оружие</button>
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum..
               </div>
             </div>
-          
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                  <button>Сувенирные изделия</button>
-                </a>
-              </div>
-              <div id="collapseThree" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum..
-                </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                <button>Сувенирные изделия</button>
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum..
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour">
-                  <button>Фонари ARMYTEK</button>
-                </a>
-              </div>
-              <div id="collapsefour" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum..
-                </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour">
+                <button>Фонари ARMYTEK</button>
+              </a>
+            </div>
+            <div id="collapsefour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum..
               </div>
             </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThere">
-                  <button>Сопуствующие товары</button>
-                </a>
-              </div>
-              <div id="collapseThere" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum..
-                </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThere">
+                <button>Сопуствующие товары</button>
+              </a>
+            </div>
+            <div id="collapseThere" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum..
               </div>
             </div>
-          
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER END -->
+
+  <!-- MAIN START -->
+  <main>
+    <!-- HERO START -->
+    <section class="hero" id="hero">
+      <div class="container"></div>
+    </section>
+    <!-- HERO END -->
+  </main>
+  <!-- MAIN END -->
+
+  <!-- FOOTER START -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer_wrapper">
+        <div class="footer_top">
+          <h1 class="footer_top_title">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</h1>
+          <p class="footer_top_text">Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого качества из
+            города оружейников - Златоуста. Златоустовские ножи известны и популярны среди потребителей как на
+            российским рынке, так и за рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие, складные и
+            метательные. Нож Златоуста - это идеальный друг и товарищ в повседневной жизни и в экстремальных ситуациях.
+            На многую продукцию распространяется гарантия до 10 лет - это один из главных показателей качества. Для Вас
+            на нашем сайте "zlatmax" предложен огромный ассортимент Златоустовских ножей. Наши менеджеры помогут
+            определиться и подобрать самый лучший Златоустовский нож, ориентируясь на Ваши пожелания.
+          </p>
+        </div>
+        <div class="footer_middle">
+          <div class="coloumns">
+            <div class="coloumn">
+              <h1 class="coloumn_title">ИНФОРМАЦИЯ</h1>
+              <ul class="footer_middle_ul">
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Златоустовские ножи
+                    в Москве и Московской
+                    области</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Ножевые стали</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">О нас</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Условия оплаты
+                    и доставки</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Политика
+                    конфиденциальности</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="coloumn">
+              <h1 class="coloumn_title">СЛУЖБА ПОДДЕРЖКИ</h1>
+              <ul class="footer_middle_ul">
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Контактная информация
+                    области</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Возврат товара</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Карта сайта</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="coloumn">
+              <h1 class="coloumn_title">ДОПОЛНИТЕЛЬНО</h1>
+              <ul class="footer_middle_ul">
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Подарочные сертификаты
+                    области</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Партнеры</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Товары со скидкой</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="coloumn">
+              <h1 class="coloumn_title">ЛИЧНЫЙ КАБИНЕТ</h1>
+              <ul class="footer_middle_ul">
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Личный кабинет</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">История заказов</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Мои закладки</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Рассылка новостей</a>
+                </li>
+                <li class="footer_middle_li">
+                  <a class="footer_middle_a" href="#">Политика
+                    конфиденциальности</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- HEADER END -->
-
-    <!-- MAIN START -->
-    <main>
-      <!-- HERO START -->
-      <section class="hero" id="hero">
-        <div class="container"></div>
-      </section>
-      <!-- HERO END -->
-    </main>
-    <!-- MAIN END -->
-
-    <!-- FOOTER START -->
-    <footer class="footer" id="footer">
-      <div class="container"></div>
-    </footer>
-    <!-- FOOTER END -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
-</html>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
