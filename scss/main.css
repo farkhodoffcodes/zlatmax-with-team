@@ -13,7 +13,6 @@ ul {
 .footer .footer_wrapper .footer_top {
   background: url("../image/footer_top_img.jpg");
   width: 1809px;
-  margin-left: -280px;
   text-align: center;
   height: 331px;
   padding-top: 60px;
@@ -87,7 +86,6 @@ ul {
   width: 100%;
   background-color: black;
   color: aliceblue;
-  padding: 1% 6%;
   display: flex;
   justify-content: space-between;
   align-items: center;
