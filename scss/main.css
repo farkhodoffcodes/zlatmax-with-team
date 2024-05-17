@@ -16,11 +16,14 @@ ul {
   padding: 0 5px;
 }
 
+.header_top {
+  background-color: black;
+}
+
 .header_link {
   width: 100%;
   background-color: black;
   color: aliceblue;
-  padding: 1% 6%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +46,6 @@ ul {
 }
 
 .header_middle {
-  padding: 1% 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +84,6 @@ ul {
 }
 
 .header_nav {
-  padding: 1% 6%;
   background-color: black;
   color: aliceblue;
 }

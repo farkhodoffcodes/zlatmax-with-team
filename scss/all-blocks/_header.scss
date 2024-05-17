@@ -1,8 +1,10 @@
-.header_link {
+
+.header_top{
+  background-color: black;
+}.header_link {
   width: 100%;
   background-color: black;
   color: aliceblue;
-  padding: 1% 6%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +26,6 @@
   }
 }
 .header_middle {
-  padding: 1% 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,7 +47,6 @@
       height: 30px;
       width: 30px;
       cursor: pointer;
-      // margin-left: 10px;
     }
     ol {
       cursor: pointer;
@@ -63,38 +63,37 @@
   }
 }
 .header_nav {
-  padding: 1% 6%;
   background-color: black;
   color: aliceblue;
-  .panel-heading{
-    .panel-title{
-      width:100%;
+  .panel-heading {
+    .panel-title {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .a_link:hover{
+      .a_link:hover {
         color: #e7b654;
       }
-      .b_link:hover{
+      .b_link:hover {
         color: #e7b654;
       }
-      .c_link:hover{
+      .c_link:hover {
         color: #e7b654;
       }
-      .d_link:hover{
+      .d_link:hover {
         color: #e7b654;
       }
-      .f_link:hover{
+      .f_link:hover {
         color: #e7b654;
       }
     }
-    .panel-title:hover{
+    .panel-title:hover {
       color: #e7b654;
     }
   }
-  .panel-collapse{
-    .list-group{
-      ol{
+  .panel-collapse {
+    .list-group {
+      ol {
         padding: 20px 0;
         display: flex;
         width: 100%;
@@ -102,7 +101,7 @@
         line-height: 2.5;
         font-size: 15px;
         list-style: none;
-        li{
+        li {
           width: 250px;
         }
       }
@@ -131,8 +130,6 @@
           }
         }
       }
-      
-      
     }
   }
 }
