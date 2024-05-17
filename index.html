@@ -3,195 +3,431 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./scss/main.css" />
     <title>zlatmax</title>
   </head>
-  <head>
-    <body>
-      <!-- HEADER START -->
-      <header class="header" id="header collapse">
-        <div class="header_top">
-          <div class="container">
-            <div class="header_link">
-              <ol>
-                <li>О нас</li>
-                <li>Оплата и доставка</li>
-                <li>Новости</li>
-                <li>Контакты</li>
-              </ol>
-              <ul>
-                <img src="./image/Group (2).png" alt="rasm bor" />
-                <li>Личный кабинет</li>
-              </ul>
-            </div>
+  <body>
+    <!-- HEADER START -->
+    <header class="header" id="header collapse">
+      <div class="header_top">
+        <div class="container">
+          <div class="header_link">
+            <ol class="header_link_ol">
+              <li class="header_link_ol_li">
+                <a class="header_link_ol_li_item" href="#">О нас</a>
+              </li>
+              <li class="header_link_ol_li">
+                <a class="header_link_ol_li_item" href="#">Оплата и доставка</a>
+              </li>
+              <li class="header_link_ol_li">
+                <a class="header_link_ol_li_item" href="#">Новости</a>
+              </li>
+              <li class="header_link_ol_li">
+                <a class="header_link_ol_li_item" href="#">Контакты</a>
+              </li>
+            </ol>
+            <ul class="header_link_ul">
+              <li class="header_link_ul_li">
+                <img
+                  class="header_link_ul_li_img"
+                  src="./image/Group (2).png"
+                  alt="rasm bor"
+                />
+              </li>
+              <li class="header_link_ul_li">
+                <a class="header_link_ul_li_item" href="#">Личный кабинет</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="header_bottom">
-          <div class="container">
-            <div class="header_middle">
-              <div class="header_middle_span">
-                <img src="./image/logo.png" alt="rasm bor" />
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Search"
-                  name="search"
-                />
-              </div>
-              <div class="header_middle_span rigt">
-                <ol>
-                  <img src="./image/Иконка_Локации (1).png" alt="rasm bor" />
-                  <b>Москва</b>
-                </ol>
-                <ol>
-                  <ul>
-                    <li><b>8-800-777-49-67</b></li>
-                    <li><b style="color: #e7b654">Заказать звонок</b></li>
-                  </ul>
+      </div>
+      <div class="header_bottom">
+        <div class="container">
+          <div class="header_middle">
+            <img
+              class="header_middle_img"
+              src="./image/logo.png"
+              alt="rasm bor"
+            />
+            <input
+              type="text"
+              class="header_middle_imput"
+              placeholder="Search"
+            />
+          </div>
+          <div class="header_middle rigt">
+            <div class="header_middle_rigt">
+              <ol class="header_middle_ol">
+                <li class="header_middle_ol_li">
                   <img
-                    style="
-                      width: 13px;
-                      height: 10px;
-                      margin-top: 7px;
-                      margin-left: 5px;
-                    "
+                    class="header_middle_ol_img"
+                    src="./image/Иконка_Локации (1).png"
+                    alt="rasm bor"
+                  />
+                </li>
+                <li class="header_middle_ol_li">Москва</li>
+              </ol>
+              <ol class="header_middle_ol">
+                <ul class="header_middle_ol_ul">
+                  <li class="header_middle_ol_ul_li">8-800-777-49-67</li>
+                  <li class="header_middle_ol_ul_li">Заказать звонок</li>
+                </ul>
+                <ul class="header_middle_ol_ul">
+                  <img
+                    class="header_middle_ol_ul_img"
                     src="./image/Group (3).png"
                     alt="rasm bor"
                   />
-                </ol>
-                <img
-                  class="rigt_imgg"
-                  src="./image/Иконка_Избранное.png"
-                  alt="rasm bor"
-                />
-                <img
-                  class="rigt_img"
-                  src="./image/Иконка_корзины.png"
-                  alt="rasm bor"
-                />
-                <ul>
-                  <li>0 р.</li>
-                  <li>Оформить заказ</li>
                 </ul>
-              </div>
+              </ol>
+              <ol class="header_middle_ol">
+                <li class="header_middle_ol_li">
+                  <img
+                    class="rigt_imgg"
+                    src="./image/Иконка_Избранное.png"
+                    alt="rasm bor"
+                  />
+                </li>
+                <li class="header_middle_ol_li">
+                  <img
+                    class="rigt_imgg"
+                    src="./image/Иконка_корзины.png"
+                    alt="rasm bor"
+                  />
+                </li>
+              </ol>
+              <ol class="header_middle_ol">
+                <li class="header_middle_ol_bottom">
+                  0 р. <br />
+                  Оформить заказ
+                </li>
+              </ol>
             </div>
           </div>
         </div>
-        <div class="header_nav">
-          <div class="container">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" class="a_link" href="#collapse1"
+      </div>
+      <div class="header_nav">
+        <div class="container">
+          <div class="panel-heading">
+            <ol class="panel-title">
+              <li class="panel-title_li">
+                <a
+                  class="panel-title_li_item"
+                  data-toggle="collapse"
+                  href="#collapse1"
                   >Каталог ножей</a
                 >
-                <a data-toggle="collapse" class="b_link" href="#collapse1"
+              </li>
+              <li class="panel-title_li">
+                <a
+                  class="panel-title_li_item"
+                  data-toggle="collapse"
+                  href="#collapse1"
                   >Клинковое оружие</a
                 >
-                <a data-toggle="collapse" class="c_link" href="#collapse1"
+              </li>
+              <li class="panel-title_li">
+                <a
+                  class="panel-title_li_item"
+                  data-toggle="collapse"
+                  href="#collapse1"
                   >Сувенирные изделия</a
                 >
-                <a data-toggle="collapse" class="d_link" href="#collapse1"
+              </li>
+              <li class="panel-title_li">
+                <a
+                  class="panel-title_li_item"
+                  data-toggle="collapse"
+                  href="#collapse1"
                   >Фонари ARMYTEK</a
                 >
-                <a data-toggle="collapse" class="f_link" href="#collapse1"
+              </li>
+              <li class="panel-title_li">
+                <a
+                  class="panel-title_li_item"
+                  data-toggle="collapse"
+                  href="#collapse1"
                   >Сопуствующие товары</a
                 >
-              </h4>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse">
-              <ul class="list-group">
-                <ol>
-                  <li>Категория ножей</li>
-                  <li>Производство ножей</li>
-                  <li>Ножи по маркам стали</li>
-                  <li>Заточка и полировка ножей</li>
-                  <li>Ножевая мастерская</li>
-                </ol>
-                <img src="./image/Line 36.png" alt="rasm bor" />
-                <ol>
-                  <ul>
-                    <li>Разделочные ножи</li>
-                    <li>Туристические ножи</li>
-                    <li>Ножи охотничьи</li>
-                    <li>Булатные ножи</li>
-                    <li>Ножи из дамаска</li>
-                    <li>Тактического назначения</li>
-                    <li>Метательные ножи</li>
-                    <li>Мачете и кукри</li>
-                    <li>Ножи кухонные</li>
-                  </ul>
-                  <ul>
-                    <li>Ножи АИР</li>
-                    <li>Ножи ЗИК</li>
-                    <li>Ножи ЗЗОСС</li>
-                    <li>Ножи РОСоружие</li>
-                    <li>Ножи Оружейник</li>
-                    <li>Булат Сергея Баранова</li>
-                    <li>Булат Андрея Умерова</li>
-                    <li>Ножи Златко</li>
-                    <li>Ножи Стиль-М</li>
-                    <li>Оружейная компания</li>
-                  </ul>
-                  <ul>
-                    <li>Ножи из стали 40х102С2М</li>
-                    <li>Ножи из стали 95х18</li>
-                    <li>Ножи ЗЗОСС</li>
-                    <li>Ножи из стали 100х13м</li>
-                    <li>Ножи из стали 110х18м-ШД</li>
-                    <li>Ножи из стали ЭИ-107 ТЦ</li>
-                    <li>Ножи из стали 50х14МФ</li>
-                    <li>Ножи из стали AUS-8</li>
-                    <li>Ножи из стали К340</li>
-                    <li>Ножи из стали M390</li>
-                    <li>Ножи из стали ЭП-766</li>
-                  </ul>
-                  <ul>
-                    <li>Паста ГОИ</li>
-                    <li>Алмазная паста</li>
-                    <li>Бруски и камни для заточки</li>
-                    <li>Заточные системы</li>
-                  </ul>
-                  <ul>
-                    <li>Ножевые клинки</li>
-                    <li>Заготовки для ножей</li>
-                    <li>Литье для ножей</li>
-                    <li>Материалы для рукоятей</li>
-                    <li>Уход за рукоятиями ножей</li>
-                  </ul>
-                </ol>
-                <img src="./image/Line 36.png" alt="rasm bor" />
-                <ol style="color: #e7b654">
-                  <li>Смотреть все</li>
-                  <li>Смотреть все</li>
-                  <li>Смотреть все</li>
-                  <li>Смотреть все</li>
-                </ol>
-              </ul>
-            </div>
+              </li>
+            </ol>
           </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <ul class="list-group">
+              <ol class="list-group_ol">
+                <li class="list-group_ol_li">
+                  <a class="list-group_ol_li_item" href="#">Категория ножей</a>
+                </li>
+                <li class="list-group_ol_li">
+                  <a class="list-group_ol_li_item" href="#"
+                    >Производство ножей</a
+                  >
+                </li>
+                <li class="list-group_ol_li">
+                  <a class="list-group_ol_li_item" href="#"
+                    >Ножи по маркам стали</a
+                  >
+                </li>
+                <li class="list-group_ol_li">
+                  <a class="list-group_ol_li_item" href="#"
+                    >Заточка и полировка ножей</a
+                  >
+                </li>
+                <li class="list-group_ol_li">
+                  <a class="list-group_ol_li_item" href="#"
+                    >Ножевая мастерская</a
+                  >
+                </li>
+              </ol>
+              <ol class="list-group_ol">
+                <img
+                  class="list-group_ol_img"
+                  src="./image/Line 36.png"
+                  alt="rasm bor"
+                />
+              </ol>
+              <ol class="list-group_ol">
+                <ul class="list-group_ol_ul">
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Разделочные ножи</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Туристические ножи</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи охотничьи</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Булатные ножи</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из дамаска</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Тактического назначения</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Метательные ножи</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Мачете и кукри</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи кухонные</a
+                    >
+                  </li>
+                </ul>
+                <ul class="list-group_ol_ul">
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Ножи АИР</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Ножи ЗИК</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Ножи ЗЗОСС</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи РОСоружие</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи Оружейник</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Булат Сергея Баранова</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Булат Андрея Умерова</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Ножи Златко</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи Стиль-М</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Оружейная компания</a
+                    >
+                  </li>
+                </ul>
+                <ul class="list-group_ol_ul">
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали 40х102С2М</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали 95х18</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Ножи ЗЗОСС</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали 100х13м</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали 110х18м-ШД</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали ЭИ-107 ТЦ</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали 50х14МФ</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали AUS-8</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали К340</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали M390</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножи из стали ЭП-766</a
+                    >
+                  </li>
+                </ul>
+                <ul class="list-group_ol_ul">
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#">Паста ГОИ</a>
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Алмазная паста</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Бруски и камни для заточки</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Заточные системы</a
+                    >
+                  </li>
+                </ul>
+                <ul class="list-group_ol_ul">
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Ножевые клинки</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Заготовки для ножей</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Литье для ножей</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Материалы для рукоятей</a
+                    >
+                  </li>
+                  <li class="list-group_ol_ul_li">
+                    <a class="list-group_ol_ul_li_item" href="#"
+                      >Уход за рукоятиями ножей</a
+                    >
+                  </li>
+                </ul>
+              </ol>
+              <ol class="list-group_ol">
+                <li class="list-group_ol_li">
+                  <img
+                    class="list-group_ol_li_img"
+                    src="./image/Line 36.png"
+                    alt="rasm bor"
+                  />
+                </li>
+              </ol>
+              <ol class="list-group_ol">
+                <li class="list-group_ol_four">
+                  <a class="list-group_ol_four_item" href="#">Смотреть все</a>
+                </li>
+                <li class="list-group_ol_four">
+                  <a class="list-group_ol_four_item" href="#">Смотреть все</a>
+                </li>
+                <li class="list-group_ol_four">
+                  <a class="list-group_ol_four_item" href="#">Смотреть все</a>
+                </li>
+                <li class="list-group_ol_four">
+                  <a class="list-group_ol_four_item" href="#">Смотреть все</a>
+                </li>
+                <li class="list-group_ol_four">
+                  <a class="list-group_ol_four_item" href="#">Смотреть все</a>
+                </li>
+              </ol>
+            </ul>
           </div>
         </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
 
-        
-      </header>
-      <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+      <!-- HERO START -->
+      <section class="hero" id="hero">
+        <div class="section__hero"></div>
+      </section>
+      <!-- HERO END -->
+    </main>
+    <!-- MAIN END -->
 
-      <!-- MAIN START -->
-      <main>
-        <!-- HERO START -->
-        <section class="hero" id="hero">
-          <div class="section__hero"></div>
-        </section>
-        <!-- HERO END -->
-      </main>
-      <!-- MAIN END -->
-
-      <!-- FOOTER START -->
-      <footer class="footer" id="footer">
-        <div class="container"></div>
-      </footer>
-      <!-- FOOTER END -->
-    </body>
-  </head>
+    <!-- FOOTER START -->
+    <footer class="footer" id="footer">
+      <div class="container"></div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
 </html>
