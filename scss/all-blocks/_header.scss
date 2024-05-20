@@ -101,25 +101,148 @@
   }
   &_nav {
     background-color: black;
+    color: aliceblue;
+  }
+}
+/* colors */
+$black: #000000;
+$blue: #0098c5;
+$navy: #004c63;
+$white: #fff9fb;
+
+/* functions */
+@function contrast-color($color, $dark: $black, $light: $white) {
+  @if (lightness($color) > 76) {
+    @return $dark;
+  } @else {
+    @return $light;
+  }
+}
+
+/* mixins */
+@mixin contrasted($background-color, $dark: $black, $light: $white) {
+  background-color: $background-color;
+  color: contrast-color($background-color, $dark, $light);
+}
+@mixin text-size-adjust {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+$source-sans-pro: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$open-sans: "Open Sans", Helvetica, Arial, sans-serif;
+
+/* normalize */
+* {
+  @include text-size-adjust;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+}
+.container {
+  display: flex;
+}
+.collapsible-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex: 1 auto;
+  font-size: 15px;
+
+  .collapsible-body {
+    @include contrasted($black);
+    display: flex;
+    max-height: 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+    transform: translate(-145px);
+    overflow: hidden;
+    transition: max-height 500ms;
+    > .content {
+      padding: 1rem 2rem;
+    }
+  }
+  .collapsible-header {
+    @include contrasted($black);
+    cursor: pointer;
+    display: flex;
+    padding: 1rem 0;
+    width: 200px;
+    height: 50px;
+    font-size: 10px;
+
+    &:hover {
+      @include contrasted(darken($black, 10%));
+      border-bottom: 1px solid #fff700ed;
+      width: 150px;
+      color: #fff700;
+    }
+
+    .title {
+      padding: 0 2rem 0 0;
+      position: absolute;
+
+      &::after {
+        content: "\203A";
+        display: block;
+        position: absolute;
+        right: 0;
+        transform-origin: 50% 50%;
+        transition: transform 500ms;
+        text-align: center;
+        top: 0;
+        width: 2rem;
+      }
+    }
+  }
+
+  &.expanded {
+    .collapsible-body {
+      max-height: 600px;
+    }
+    .collapsible-header {
+      .title {
+        &::after {
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+}
+.header {
+  &_nav {
+    background-color: black;
     .container {
-      .panel-heading {
-        .panel-title {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          grid-template-columns: auto auto auto auto auto;
-          &_li {
-            list-style: none;
-            &_item {
-              text-decoration: none;
-              color: aliceblue;
-              font-family: sans-serif;
+      .panel-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: auto auto auto auto auto;
+        &_li {
+          list-style: none;
+          &_item {
+            text-decoration: none;
+            color: aliceblue;
+            font-family: sans-serif;
+            .activeColl,
+            &:hover {
+              background-color: black;
             }
           }
         }
       }
       .panel-collapse {
+        // display: none;
         .list-group {
+          padding: 0 7%;
           &_ol {
             display: flex;
             justify-content: space-between;
