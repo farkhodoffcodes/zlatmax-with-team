@@ -10,10 +10,12 @@
   body {
     overflow-x: none;
   }
+
   
   .products-slider {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
     padding: 0 40px;
   }
@@ -67,9 +69,10 @@
   .products-slider__header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1240px;
     font-family: sans-serif;
-    padding: 40px 50px;
+    padding: 40px 0px;
   }
   
   .products-slider__more {
@@ -88,7 +91,8 @@
   
   .page__featured-products-slider {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 19px;
     // margin-top: 100px;
     padding: 50px 50px;
     flex-wrap: wrap;
