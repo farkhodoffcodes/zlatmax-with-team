@@ -9,14 +9,18 @@
   box-sizing: border-box;
 }
 
+*{
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
 }
 
 .container {
-  max-width: 1240px;
+  /* max-width: 1240px; */
   margin: 0 auto;
-  padding: 15px 5px;
+  /* padding: 15px 5px; */
   font-family: sans-serif;
 }
 
@@ -132,9 +136,9 @@ ul {
   outline: none;
 }
 
-.container {
+/* .container {
   display: flex;
-}
+} */
 
 .collapsible-section {
   display: flex;
@@ -260,7 +264,8 @@ ul {
 /* OUR ARTICLES (Наши статьи) START */
 
 .container{
-  padding: 0 6%;
+  width: 100%;
+  padding: 0 3.5%;
 }
 
 .our-articles-header-text{
