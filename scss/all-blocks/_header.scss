@@ -147,10 +147,6 @@ $open-sans: "Open Sans", Helvetica, Arial, sans-serif;
     outline: none;
   }
 }
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
 .collapsible-section {
   display: flex;
   justify-content: space-between;
@@ -304,25 +300,28 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
-button {
-  background-color: $primary-color;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  display: flex;
-  justify-content: space-evenly;
-  img {
-    width: 31px;
-    height: 32px;
-  }
-
-  &:hover {
-    opacity: 1;
-  }
+.header{
+  button {
+      background-color: $primary-color;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      display: flex;
+      justify-content: space-evenly;
+  
+      img {
+        width: 31px;
+        height: 32px;
+      }
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
 }
 
 .cancelbtn,
@@ -404,12 +403,12 @@ button {
   clear: both;
   display: table;
 }
-@media only screen and (min-width: 567px) {
+@media only screen and (min-width: 576px) {
   .menu-modal {
     display: none;
   }
 }
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 576px) {
   .header_nav,.header_bottom,.header_top {
     display: none;
   }

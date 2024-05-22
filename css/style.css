@@ -1,4 +1,7 @@
-
+.container {
+    /* margin: 0 auto; */
+    padding: 0 3%;
+}
 
 .our-articles-header-text {
     font-size: 2rem;
@@ -345,6 +348,12 @@
         flex-direction: column;
         padding-bottom: 1rem;
     }
+
+        .lanterns-section-cards{
+
+            display: flex;
+            flex-direction: column;
+        }
 }
 
 /* Responsive 576px end */
