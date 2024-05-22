@@ -397,6 +397,8 @@ ul {
   display: flex; 
   align-items: center;
   justify-content: center;
+  font-weight: 600;
+  /* padding: 0; */
 }
 
 .lanterns-section-card button ul{
@@ -408,11 +410,12 @@ ul {
 
 .lanterns-section-card button ul li:nth-child(2){
   margin-left: 0.7rem;
+  padding: 0;
 }
 
 .lanterns-section-card button ul li img{
   /* margin-left: 1rem; */
-  width: 80%;
+  width: 70%;
 }
 /* Lanterns (Фонари) end */
 
