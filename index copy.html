@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./scss/main.css" />
+<html>
+  <body>
+    <div class="div">
+      <div id="id01" class="modal">
+        <span><a href="./home.html"> <img src="./image/Group 234.png" alt=""> Назад</a></span>
+        <span
+          onclick="document.getElementById('id01').style.display='none'"
+          class="close"
+          title="Close Modal"
+          >×</span
+        >
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <ol class="modal-content_logo logo-model">
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Разделочные ножи</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#"
+                  >Каталог товаров
+                  <img
+                    class="logo-model_img"
+                    src="./image/Group (4).png"
+                    alt=""
+                /></a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Туристические ножи</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Ножи охотничьи</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Булатные ножи</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Ножи из дамаска</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Тактического назначения</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Метательные ножи</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Мачете и кукри</a>
+              </li>
+              <hr />
+              <li class="logo-model_item">
+                <a class="logo-model_link" href="#">Ножи кухонные</a>
+              </li>
+              <hr />
+            </ol>
+            <div class="clearfix">
+              <button
+                type="button"
+                onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onclick="document.getElementById('id01').style.display='none'"
+                class="deletebtn"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="wordContainer"></div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
