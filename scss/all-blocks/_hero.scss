@@ -1,0 +1,150 @@
+.product_card {
+    width: 340px;
+    height: 500px;
+    box-shadow: 0 0 1rem rgb(213, 211, 211);
+    text-align: center;
+    font-family: sans-serif;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  body {
+    overflow-x: none;
+  }
+
+  
+  .products-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+  
+  .product_card:hover {
+    transform: scale(1.02);
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .info-product-card__size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .product-card__rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    padding: 10px;
+  }
+  
+  .product-card__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+  }
+  
+  .product-card__cart {
+    width: 90%;
+    height: 35px;
+    background-color: #E8AA31;
+    border: none;
+    color: white;
+  }
+  
+  .product-card__cart:hover {
+    background-color: #ba8927;
+    cursor: pointer;
+  }
+  
+  .product-card__image-ibg img {
+    width: 100%;
+  }
+  
+  .products-slider__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1240px;
+    font-family: sans-serif;
+    padding: 40px 0px;
+  }
+  
+  .products-slider__more {
+    opacity: 80%;
+  }
+  
+  .products-slider__more:hover {
+    opacity: 100%;
+  }
+  
+  .product-card__title {
+    text-align: left;
+    padding: 0 .6rem;
+  }
+  
+  
+  .page__featured-products-slider {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    // margin-top: 100px;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    background-image: url(../img/orqafon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 150px;
+  
+    .page__products-slider {
+      .page__products-slider_title {
+        color: white;
+        font-family: sans-serif;
+        width: 340px;
+      }
+  
+      .page__products-slider__text {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 100;
+        line-height: 23px;
+      }
+  
+      .page__products-slider__button {
+        .page__products-slider__btn {
+          background-color: transparent;
+          color: #E8AA31;
+          font-family: sans-serif;
+          margin-top: 40px;
+          border: none;
+          font-size: 20px;
+          
+        }
+        .page__products-slider__btn:hover {
+          color: #151513;
+        }
+        // .page__products-
+        // }
+      }
+    }
+  
+    .product_card {
+      background-color: white;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 576px) {
+    .page__featured-products-slider {
+     row-gap: 30px;
+    }
+    .products-slider {
+      row-gap: 30px;
+    }
+  } 
