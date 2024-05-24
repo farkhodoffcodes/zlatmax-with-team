@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="header_bottom">
-        <div class="container">
+        <div class="container contianer-top">
           <div class="header_middle">
             <img
               class="header_middle_img"
@@ -427,16 +427,21 @@
         </button>
 
         <div id="id01" class="modal">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal" >×</span>
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >×</span
+          >
           <form class="modal-content" action="/action_page.php">
-            <div class="container">
+            <div>
               <ol class="modal-content_logo logo-model">
                 <li class="logo-model_item">
                   <a class="logo-model_link" href="#">Личный кабинет</a>
                 </li>
                 <hr />
-                <li class="logo-model_item">
-                  <a class="logo-model_link" href="./home.html">Каталог товаров
+                <li class="logo-model_item" id="updateDetails">
+                  <a class="logo-model_link" href="#">Каталог товаров
                     <img class="logo-model_img" src="./image/Group (4).png" alt="" /></a>
                 </li>
                 <hr />
@@ -457,23 +462,53 @@
                 </li>
                 <hr />
               </ol>
-              <div class="clearfix">
-                <button
-                  type="button"
-                  onclick="document.getElementById('id01').style.display='none'"
-                  class="cancelbtn"
-                >
-                  Cancel
-                </button>
-                <button
-                  type="button"
-                  onclick="document.getElementById('id01').style.display='none'"
-                  class="deletebtn"
-                >
-                  Delete
-                </button>
-              </div>
             </div>
+            <dialog id="favDialog" >
+              <form method="dialog">
+                <a href="#" id="cancel">Назад</a>
+                <p>
+                    <span
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="close"
+                  title="Close Modal"
+                  >×</span>
+                  <label for="favAnimal">
+                    <ol class="modal-content_logo logo-model">
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Каталог ножей <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html"
+                          >Клинковое оружие
+                          <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Сувенирные изделия <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a> 
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Фонари ARMYTEK <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Оплата и доставка <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Сопуствующие товары <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                      <li class="logo-model_item">
+                        <a class="logo-model_link" href="/index copy.html">Топоры <img class="logo-model_img" src="./image/Group (4).png"  alt="" /></a>
+                      </li>
+                      <hr />
+                    </ol>
+                  </label>
+                </p>
+              </form>
+            </dialog>
           </form>
         </div>
       </div>
