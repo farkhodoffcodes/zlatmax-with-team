@@ -546,12 +546,11 @@ ul {
     color: rgba(255, 255, 255, 0.8);
   }
   .footer .footer_end_wrapper .footer_end_link {
-    margin-left: 200px;
+    margin-left: 215px;
     text-align: center;
   }
   .footer .footer_end_wrapper .footer_end_link .footer_end_link_span {
     display: block;
-    margin-left: 100px;
     text-align: center;
   }
 }
